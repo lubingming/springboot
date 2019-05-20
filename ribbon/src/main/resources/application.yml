@@ -1,0 +1,19 @@
+server:
+  port: 8082
+spring:
+  application:
+    name: Ribbon-Consumer
+#providers这个是自己命名的，ribbon,listOfServer这两个是规定的
+#providers:
+#  ribbon:
+#    listOfServers: localhost:8080,localhost:8081
+#
+#    ##如果不想选用默认的轮询的负载均衡算法，在这里做如下配置
+#    NFLoadBalancerRuleClassName: com.netflix.loadbalancer.RandomRule
+
+eureka:
+  #客户端
+  client:
+    #注册中心地址
+    service-url:
+      defaultZone: http://localhost:8888/eureka/,http://localhost:8889/eureka/

@@ -1,0 +1,23 @@
+#端口号
+server:
+  port: 8889
+#Eureka实例名，集群中根据这里相互识别
+eureka:
+  instance:
+    hostname: eureka1
+  ##续约时间
+  #    lease-expiration-duration-in-seconds: 90
+  ##定时任务是时间，每个隔多少秒去重新刷新续约时间
+  #    lease-renewal-interval-in-seconds: 30
+  #客户端
+  client:
+    service-url:
+      defaultZone: http://localhost:8888/eureka/
+  ##每个隔多少秒刷新获取服务列表世界
+  #    registry-fetch-interval-seconds: 30
+  #服务端：
+  server:
+    enable-self-preservation: false
+spring:
+  application:
+    name: eureka-service

@@ -1,0 +1,14 @@
+
+[
+squid:S106T"9Replace this use of System.out or System.err by a logger.(îóéÔşÿÿÿÿ8Ê¯½¬-
+¹%squid:RedundantThrowsDeclarationCheck"€Remove the declaration of thrown exception 'java.util.concurrent.ExecutionException', as it cannot be thrown from method's body.(•é½š8üì…ª-
+¹%squid:RedundantThrowsDeclarationCheck6"€Remove the declaration of thrown exception 'java.util.concurrent.ExecutionException', as it cannot be thrown from method's body.(´å‚‘8äÂÀ¬-
+¯%squid:RedundantThrowsDeclarationCheck"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(•é½š8üì…ª-
+¯%squid:RedundantThrowsDeclarationCheck6"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(´å‚‘8äÂÀ¬-
+´%squid:RedundantThrowsDeclarationCheck>"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(àÏØøÿÿÿÿ8äÂÀ¬-
+nsquid:CommentedOutCodeLineE"<This block of commented-out lines of code should be removed.(¢Õ¼‘ÿÿÿÿÿ8Ê¯½¬-
+squid:S14889"^Immediately return this expression instead of assigning it to the temporary variable "result".(‰¢š€üÿÿÿÿ8¤·¿¬-
+¾%squid:RedundantThrowsDeclarationCheck>"€Remove the declaration of thrown exception 'java.util.concurrent.ExecutionException', as it cannot be thrown from method's body.(àÏØøÿÿÿÿ8äÂÀ¬-
+Asquid:S1148O"#Use a logger to log this exception.(Óùóÿ8Ê¯½¬-
+V
+squid:S106K"9Replace this use of System.out or System.err by a logger.(Ã˜ùÔ8Ê¯½¬-

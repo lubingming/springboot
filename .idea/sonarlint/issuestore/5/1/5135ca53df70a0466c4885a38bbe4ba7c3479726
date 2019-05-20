@@ -1,0 +1,6 @@
+
+´%squid:RedundantThrowsDeclarationCheck1"wRemove the declaration of thrown exception 'java.lang.InterruptedException', as it cannot be thrown from method's body.(ïÍ»¯ýÿÿÿÿ8ºÍîž¬-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(§÷œ‹ùÿÿÿÿ8ŠÂ©ž¬-
+Ksquid:S16042"(Make this anonymous inner class a lambda(Âíëüüÿÿÿÿ8ºÍîž¬-
+¾%squid:RedundantThrowsDeclarationCheck1"€Remove the declaration of thrown exception 'java.util.concurrent.ExecutionException', as it cannot be thrown from method's body.(ïÍ»¯ýÿÿÿÿ8ºÍîž¬-
+~squid:S1192$"[Define a constant instead of duplicating this literal "http://HELLO-SERVICE/hello" 3 times.(¸ÞË úÿÿÿÿ8ºÍîž¬-
