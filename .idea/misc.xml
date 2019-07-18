@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/provider2/pom.xml" />
         <option value="$PROJECT_DIR$/eureka1/pom.xml" />
         <option value="$PROJECT_DIR$/ribbon/pom.xml" />
+        <option value="$PROJECT_DIR$/zuul/pom.xml" />
       </list>
     </option>
   </component>

@@ -6,11 +6,12 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="eureka1" />
-        <module name="provider1" />
-        <module name="provider2" />
-        <module name="ribbon" />
+        <module name="zuul" />
         <module name="springboot" />
+        <module name="provider2" />
+        <module name="provider1" />
+        <module name="ribbon" />
+        <module name="eureka1" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -19,6 +20,7 @@
       <module name="provider2" target="1.8" />
       <module name="ribbon" target="1.8" />
       <module name="springboot" target="1.8" />
+      <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -28,6 +30,7 @@
       <module name="provider2" options="" />
       <module name="ribbon" options="" />
       <module name="springboot" options="" />
+      <module name="zuul" options="" />
     </option>
   </component>
 </project>
