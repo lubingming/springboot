@@ -12,6 +12,8 @@
         <module name="provider1" />
         <module name="ribbon" />
         <module name="eureka1" />
+        <module name="springcloud-config-client" />
+        <module name="springcloud-config-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -20,6 +22,8 @@
       <module name="provider2" target="1.8" />
       <module name="ribbon" target="1.8" />
       <module name="springboot" target="1.8" />
+      <module name="springcloud-config-client" target="1.8" />
+      <module name="springcloud-config-server" target="1.8" />
       <module name="zuul" target="1.8" />
     </bytecodeTargetLevel>
   </component>
@@ -30,6 +34,8 @@
       <module name="provider2" options="" />
       <module name="ribbon" options="" />
       <module name="springboot" options="" />
+      <module name="springcloud-config-client" options="" />
+      <module name="springcloud-config-server" options="" />
       <module name="zuul" options="" />
     </option>
   </component>
